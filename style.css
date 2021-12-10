@@ -1,0 +1,179 @@
+html, body {
+    height: 100%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+a {
+    color: inherit;
+}
+body {
+    color: black;
+    background-color: #C5CBE3;
+    /* background: linear-gradient(90deg, #D79922, #4056A1); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    /* color: black; */
+}
+
+header {
+    height: 102px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* align-items: center; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.514);
+    padding: 15px;
+    /* border: solid black 2px; */
+}
+
+.fas {
+    /* height: 50px; */
+    /* align-self: flex-start; */
+    /* justify-self: flex-start; */
+    /* border: soild red 20px; */
+    /* margin-right: 200px; */
+    width: 200px;
+    color: #4056A1;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    /* justify-self: center; */
+    /* margin-left: 16%; */
+    /* border: dotted black 2px; */
+}
+
+.header {
+    color: black;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.subheader {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.roundNum {
+    font-size: 35px;
+    text-align: center;
+    margin: 0px;
+    padding: 25px;
+}
+
+.results { 
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 0px;
+    padding-bottom: 20px;
+}
+
+.score {
+    text-align: center;
+    font-size: 25px;
+}
+
+.winner {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#container {
+    border: soild black 2px;
+    /* background-color: #4056A1; */
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.514); */
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 8px -2px 12px -3px rgba(0,0,0,0.57); 
+    box-shadow: 0px 10px 13px -7px #000000, 8px -2px 12px -3px rgba(0,0,0,0.57);
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+    /* align-self: center; */
+    height: auto;
+    width: 53%;
+    /* width: 600px; */
+    gap: 10px;
+
+}
+
+#left {
+    color: #D79922;
+    font-style: bold;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid black 2px; */
+    /* background-color: #4056A1; */
+    width: 35%;
+    height: 160px;
+}
+
+.playerChoice {
+    height: 80px;
+    width: 71px;
+}
+
+#right {
+    color: #4056A1;
+    font-style: bold;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #D79922; */
+    /* border: solid black 2px; */
+    width: 35%;
+    height: 160px;
+}
+
+.computerChoice {
+    height: 80px;
+    width: 71px;
+}
+
+h3 {
+    margin: 0px;
+
+    /* text-align: center; */
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* border: dotted black 2px; */
+    
+}
+
+.btn {
+    transition:all 8.9ms;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    /* border: dotted rgb(255, 255, 255) 4px; */
+    /* box-shadow: 0 0 10px #ffc600; */
+}
+
+.hover {
+    transform: scale(1.1);
+
+}
+
+#gameHistory {
+    align-self: flex-start;
+}
